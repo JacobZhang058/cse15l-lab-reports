@@ -1,3 +1,5 @@
+# Lab Report 1
+
 ![Image](lab-report-1a.png)
 * Working Directory: ```/home```
 * Nothing happens since no arguement was passed after cd and there was no change of directory.
