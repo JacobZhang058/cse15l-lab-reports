@@ -1,4 +1,6 @@
+
 # Lab Report 1 - Remote Access and FileSystem (Week 1)
+***
 
 ![Image](lab-report-1a.png)
 * Working Directory: ```/home```
