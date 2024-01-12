@@ -40,7 +40,7 @@
 ![Image](lab-report-1h.png)
 * Working Directory: ```/home```
 * An error message is printed since a directory was passed in as the argument.
-* It is an error, ```cat``` does not work with directories as its argument.
+* It is an error; ```cat``` does not work with directories as its argument.
 
 ![Image](lab-report-1i.png)
 * Working Directory: ```/home```
