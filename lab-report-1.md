@@ -34,8 +34,8 @@
 
 ![Image](lab-report-1g.png)
 * Working Directory: ```/home```
-* The command fails to run, since ```cat``` requires an arguement.
-* It is an error; trying to run it without passing an argument causes an error.
+* The ```cat``` command will read from the standard input, the terminal, and output that input. This continues until it reaches an end-of-file flag. This flag can be set using ```ctrl+d```.
+* Not an error.
 
 ![Image](lab-report-1h.png)
 * Working Directory: ```/home```
