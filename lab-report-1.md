@@ -4,7 +4,7 @@
 
 ![Image](lab-report-1a.png)
 * Working Directory: ```/home```
-* Nothing happens since no arguement was passed after cd and there was no change of directory.
+* The working directory is set to the home directory.
 * Not an Error
 
 ![Image](lab-report-1b.png)
