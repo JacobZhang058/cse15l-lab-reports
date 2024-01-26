@@ -2,7 +2,8 @@
 ***
 
 Code for ChatServer (Built off of NumberServer of Week 2):
->import java.io.IOException;
+```
+import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -20,7 +21,6 @@ class Handler implements URLHandler {
                 chatStr += users.get(i) + ": " + messages.get(i) + '\n';
             }
             return chatStr;
-            //return generateChatString();
         } else {
             if (url.getPath().contains("/add-message")) {
                 String[] parameters = url.getQuery().split("&");
@@ -34,20 +34,13 @@ class Handler implements URLHandler {
                         chatStr += users.get(i) + ": " + messages.get(i) + '\n';
                     }
                     return chatStr;
-                    //return generateChatString();
                 }
             }
             return "404 Not Found!";
         }
     }
 }
-// private String generateChatString(){
-//     String chatStr = "";
-//     for(int i = 0; i < users.size(); i++){
-//         chatStr += users.get(i) + ": " + messages.get(i) + '\n';
-//     }
-//     return chatStr;
-// }
+
 class ChatServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -60,3 +53,10 @@ class ChatServer {
         Server.start(port, new Handler());
     }
 }
+```
+
+***
+
+![Image](lab-report-1a.png)
+* 
+* 
