@@ -68,11 +68,12 @@ class ChatServer {
 * The url will be passed into the method as an argument. Before the code runs, the messages and users ArrayList feilds will each have one string, "Hello" and "jpolitz", respectively.
 * The handleRequest() method will update the messages and users feilds by adding in the strings after "s=" and "user=" in the url, respectively.
 
+***
 ## Part 2
 * ![Image](lab-report-2c.png)
 * ![Image](lab-report-2d.png)
 * ![Image](lab-report-2e.png)
 
-
+***
 ## Part 3
 From lab 2, I learned how to create and manipulate a web server. More specifically, I learned how to read input from the url to manipulate the data and how to output that data to the web server.
