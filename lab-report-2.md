@@ -59,14 +59,14 @@ class ChatServer {
 ***
 
 ![Image](lab-report-2a.png)
-* handleRequest() will be called.
+* ```handleRequest()``` will be called.
 * The url will be passed into the method as an argument. Before the code runs, both the messages and users ArrayList feilds are empty.
-* The handleRequest() method will update the messages and users feilds by adding in the strings after "s=" and "user=" in the url, respectively.
+* The ```handleRequest()``` method will update the messages and users feilds by adding in the strings after "s=" and "user=" in the url, respectively.
 
 ![Image](lab-report-2b.png)
-* handleRequest() will be called again.
+* ```handleRequest()``` will be called again.
 * The url will be passed into the method as an argument. Before the code runs, the messages and users ArrayList feilds will each have one string, "Hello" and "jpolitz", respectively.
-* The handleRequest() method will update the messages and users feilds by adding in the strings after "s=" and "user=" in the url, respectively.
+* The ```handleRequest()``` method will update the messages and users feilds by adding in the strings after "s=" and "user=" in the url, respectively.
 
 ***
 ## Part 2
