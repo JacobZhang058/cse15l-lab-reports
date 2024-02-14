@@ -1,4 +1,4 @@
-# Lab Report 2 – File Exploration and Text Analysis from the Command Line (Week 5)
+# Lab Report 3 – File Exploration and Text Analysis from the Command Line (Week 5)
 ***
 
 ## Part 1
@@ -95,7 +95,9 @@ By altering ```result.add(0, s);``` to ```result.add(s);```, the method will now
 ### Command less options
 Option 1: G
 Found from ```man less```.
+
 **Example 1**
+
 Command:
 `````
 less +G technical/911reort/preface.txt
@@ -109,7 +111,9 @@ Output:
     
 (END)
 `````
+
 **Example 2**
+
 Command:
 `````
 less technical/911reort/preface.txt
@@ -128,7 +132,9 @@ The option causes the output to jump to end, so that everything is printed at on
 
 Option 2: N
 Found from command ```man less```
+
 **Example 3**
+
 Command: 
 `````
 less -N technical/911reort/preface.txt
@@ -147,6 +153,7 @@ Output:
 ...
 `````
 **Example 4**
+
 Command: 
 `````
 less technical/911reort/preface.txt
@@ -168,7 +175,9 @@ Output:
 This brings out the interface with the line numbers. This is an extremely useful ease-of-access feature.
 
 Option 3: /pattern
+
 **Example 5**
+
 Command: 
 `````
 less technical/911reort/preface.txt
@@ -183,7 +192,9 @@ Output:
 ...
 `````
 This option searches the file for instances of the pattern and highlights them. It also scrolls so the next instance is at the top line.
+
 **Example 6**
+
 Command: 
 `````
 less -i technical/911reort/preface.txt
@@ -199,7 +210,9 @@ Output:
 This option again searches the file for instances of the pattern and highlights them, but ```-i``` allows the search to be case-insensitive.
 
 Option 4: --mouse
+
 **Example 7**
+
 Command:
 `````
 less --mouse technical/911reort/preface.txt
@@ -214,7 +227,9 @@ Output:
                 the President of the United States, the United States Congress, and the American
 ...
 `````
+
 **Example 8**
+
 Command:
 `````
 less --MOUSE technical/911reort/preface.txt
