@@ -94,6 +94,7 @@ By altering ```result.add(0, s);``` to ```result.add(s);```, the method will now
 ## Part 2
 ### Command less options
 Option 1: G
+
 Found from ```man less```.
 
 **Example 1**
@@ -131,6 +132,7 @@ Output:
 The option causes the output to jump to end, so that everything is printed at once. This helps prevent the need to scroll through line by line to reach the end of the file.
 
 Option 2: N
+
 Found from command ```man less```
 
 **Example 3**
