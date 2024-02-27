@@ -1,4 +1,4 @@
-<img width="916" alt="image" src="https://github.com/JacobZhang058/cse15l-lab-reports/assets/63271669/57ea6c20-9ec7-4df7-95ae-a1a126dd2691">
+
 # Lab Report 4 - Doing it All from the Command Line (Week 7)
 ***
 
