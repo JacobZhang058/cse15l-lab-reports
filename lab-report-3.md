@@ -101,7 +101,7 @@ Found from ```man less```.
 
 Command:
 `````
-less +G technical/911reort/preface.txt
+less +G technical/911report/preface.txt
 `````
 Output:
 `````
@@ -117,7 +117,7 @@ Output:
 
 Command:
 `````
-less technical/911reort/preface.txt
+less technical/911report/preface.txt
 G
 `````
 Output:
@@ -139,7 +139,7 @@ Found from command ```man less```
 
 Command: 
 `````
-less -N technical/911reort/preface.txt
+less -N technical/911report/preface.txt
 `````
 Output:
 `````
@@ -158,7 +158,7 @@ Output:
 
 Command: 
 `````
-less technical/911reort/preface.txt
+less technical/911report/preface.txt
 -N
 `````
 Output:
@@ -176,48 +176,50 @@ Output:
 `````
 This brings out the interface with the line numbers. This is an extremely useful ease-of-access feature.
 
-Option 3: /pattern
+Option 3: --shift
+
+Found from command ```man less```
 
 **Example 5**
 
 Command: 
 `````
-less technical/911reort/preface.txt
+less --shift 0 technical/911report/preface.txt
 /PREFACE
 `````
-Output:
+Output (after scolling to the right once):
 `````
-            PREFACE
-            We present the narrative of this report and the recommendations that flow from it to
-                the President of the United States, the United States Congress, and the American
-                people for their consideration. Ten Commissioners-five Republicans and five
+m it to
+merican
 ...
 `````
-This option searches the file for instances of the pattern and highlights them. It also scrolls so the next instance is at the top line.
 
 **Example 6**
 
 Command: 
 `````
-less -i technical/911reort/preface.txt
-/we
+less --shift 10 technical/911report/preface.txt
 `````
 Output:
 `````
-            We present the narrative of this report and the recommendations that flow from it to
-                the President of the United States, the United States Congress, and the American
-                people for their consideration. Ten Commissioners-five Republicans and five
+  PREFACE
+  We present the narrative of this report and the recommendations that flow from it to
+      the President of the United States, the United States Congress, and the American
+      people for their consideration. Ten Commissioners-five Republicans and five
+      Democrats chosen by elected leaders from our nation's capital at a time of great
 ...
 `````
-This option again searches the file for instances of the pattern and highlights them, but ```-i``` allows the search to be case-insensitive.
+This option allows for different horizontal scroll steps. 0 is the default option, which is set to half of the screen size. The option is especially useful for this text file because every line within starts with a certain amount of whitespace.
 
 Option 4: --mouse
+
+Found from command ```man less```
 
 **Example 7**
 
 Command:
 `````
-less --mouse technical/911reort/preface.txt
+less --mouse technical/911report/preface.txt
 `````
 Output:
 `````
@@ -234,7 +236,7 @@ Output:
 
 Command:
 `````
-less --MOUSE technical/911reort/preface.txt
+less --MOUSE technical/911report/preface.txt
 `````
 Output:
 `````
