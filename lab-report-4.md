@@ -1,20 +1,64 @@
-<img width="916" alt="image" src="https://github.com/JacobZhang058/cse15l-lab-reports/assets/63271669/752d1029-c266-49c3-8fe8-e51a547d050a"># Lab Report 4 - Doing it All from the Command Line (Week 7)
+<img width="916" alt="image" src="https://github.com/JacobZhang058/cse15l-lab-reports/assets/63271669/57ea6c20-9ec7-4df7-95ae-a1a126dd2691">
+# Lab Report 4 - Doing it All from the Command Line (Week 7)
 ***
 
 ## Step 4
 
 Commands Typed:
 ```
-ssh<SPACE>jaz007@ieng6.ucsd.edu
+ssh jaz007@ieng6.ucsd.edu
 ```
 Results:
-![Image](lab-report-2b.png)
+![Image](lab-report-4b.png)
 
 ## Step 5
 
 Commands Typed:
 ```
-
+git clone <ctrl+v>
 ```
 Results:
-![Image](lab-report-2a.png)
+![Image](lab-report-4a.png)
+
+## Step 6
+
+Commands Typed:
+```
+cd l<tab>
+bash t<tab>
+```
+Results:
+![Image](lab-report-4c.png)
+
+## Step 7
+
+Commands Typed:
+```
+vim L<tab>.<tab>
+43jer2:wq!
+```
+Results:
+![Image](lab-report-4d.png)
+
+## Step 8
+
+Commands Typed:
+```
+<up><up>
+```
+Results:
+![Image](lab-report-4e.png)
+
+## Step 9
+
+Commands Typed:
+```
+git add <tab>
+git commit
+aHello<esc>
+:wq!
+git push
+```
+Results:
+![Image](lab-report-4f.png)
+
