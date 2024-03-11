@@ -34,7 +34,7 @@ bash t<tab>
 Results:
 ![Image](lab-report-4c.png)
 Explanation:
-Pressing ``<tab>`` autofills the commands with lab7 and test.sh, respectively. These two commands will change my directory to the lab7 folder and run the specified bash script, respectively.
+Pressing ``<tab>`` autofills the commands with "lab7" and "test.sh", respectively. These two commands will change my directory to the lab7 folder and run the specified bash script, respectively.
 
 ## Step 7
 
