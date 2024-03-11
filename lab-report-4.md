@@ -22,7 +22,7 @@ git clone <ctrl+v>
 Results:
 ![Image](lab-report-4a.png)
 Explanation:
-With the link copied, I can just use ``<ctrl+v>`` to paste the link into the terminal.
+With the link copied, I can just use ``<ctrl+v>`` to paste "git@github.com:JacobZhang058/lab7.git" into the terminal. This command will copy the code from the repository onto the server.
 
 ## Step 6
 
@@ -34,7 +34,7 @@ bash t<tab>
 Results:
 ![Image](lab-report-4c.png)
 Explanation:
-Pressing ``<tab>`` autofills the commands with lab7 and test.sh, respectively.
+Pressing ``<tab>`` autofills the commands with lab7 and test.sh, respectively. These two commands will change my directory to the lab7 folder and run the specified bash script, respectively.
 
 ## Step 7
 
@@ -72,6 +72,7 @@ git push
 ```
 Results:
 ![Image](lab-report-4f.png)
+![Image](lab-report-4g.png)
 Explanation:
 ``git add <tab>`` will automatically update the command with the changed files. ``git add <tab>`` brings up an interface, and ``aHello<esc>`` and ``:wq!`` will save a commit message. Then, ``git push`` pushes the changes.
 
