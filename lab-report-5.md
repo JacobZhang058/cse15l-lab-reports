@@ -9,9 +9,8 @@
 
 3. Oh I see! The printed line of "Compile success" is based on the conditional, ```if [[   $? -eq 1    ]]```, which must have an error! I looked into it, and the variable "$?" would be equal to 1 in the event of a compiler error. Thus, the conditional is wrong! Thank you, TA!
 
-4. 
-Bash Script:
-`````
+4. Bash Script:
+```
 CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
 
 rm -rf student-submission
@@ -72,7 +71,7 @@ else
 fi
 
 exit
-`````
+```
 
 Cloned Java file:
 ````
