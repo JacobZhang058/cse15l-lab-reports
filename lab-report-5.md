@@ -127,6 +127,7 @@ class ListExamples {
 `````
 Command:
 ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error```
+
 The Fix:
 In the bash script, change the conditional from ``if [[   $? -eq 1    ]]`` to ``if [[   $? -eq 0    ]]``.
 
