@@ -10,61 +10,7 @@
 3. Oh I see! The printed line of "Compile success" is based on the conditional, ```if [[   $? -eq 1    ]]```, which must have an error! I looked into it, and the variable "$?" would be equal to 1 in the event of a compiler error. Thus, the conditional is wrong! Thank you, TA!
 
 4. Bash Script:
-```
-CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar'
-
-rm -rf student-submission
-rm -rf grading-area
-
-mkdir grading-area
-
-git clone $1 student-submission
-echo 'Finished cloning'
-
-if [[   -f student-submission/ListExamples.java   ]]
-then  
-    echo "File found"
-else
-    echo "File not found"
-    echo '0 %'
-    exit
-fi
-
-cp TestListExamples.java grading-area
-cp student-submission/ListExamples.java grading-area
-cp -r lib grading-area
-
-cd grading-area
-javac -cp $CPATH *.java 2> compile-msg.txt
-
-if [[   $? -eq 1    ]]
-then
-    echo "Compile success"
-else
-    cat compile-msg.txt
-    echo "Compile failed"
-    echo '0 %'
-    exit
-fi
-
-
-java -cp $CPATH org.junit.runner.JUnitCore TestListExamples > test-results.txt
-VAR=$(grep -c 'OK' test-results.txt)
-
-if [[   $VAR -eq 1  ]]
-then
-    echo '100 %'
-else
-    tail -n 2 test-results.txt > tests-run-failures.txt
-    TESTSRUN=$(grep -Eo "Tests run: [0-9]+" tests-run-failures.txt | grep -Eo "[0-9]+")
-    FAILURES=$(grep -Eo "Failures: [0-9]+" tests-run-failures.txt | grep -Eo "[0-9]+")
-    let a=100\*$FAILURES/$TESTSRUN
-    let a=100-a
-    echo $a '%'
-fi
-
-exit
-```
+![Image](lab-report-5b.png)
 
 Cloned Java file:
 ````
