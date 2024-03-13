@@ -75,7 +75,7 @@ exit
 `````
 
 Cloned Java file:
-`````
+````
 import java.util.ArrayList;
 import java.util.List;
 
@@ -125,7 +125,7 @@ class ListExamples {
 
 
 }
-`````
+````
 
 Command:
 ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error```
